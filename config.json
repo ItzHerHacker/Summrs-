@@ -1,0 +1,220 @@
+{
+    "guilds": {
+        "984475600993542155": {
+            "owner": 971617059383431199,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "1006759883481296966": {
+            "owner": 985097344880082964,
+            "Punishment": 1,
+            "whitelist": [],
+            "log_channel": 1008936969830682664,
+            "mod": [],
+            "admin": [
+                971617059383431199
+            ]
+        },
+        "1017648270534783026": {
+            "owner": 985097344880082964,
+            "Punishment": 1,
+            "whitelist": [
+                1006157078924107867,
+                989488389248143360,
+                969192890205110313
+            ],
+            "log_channel": 1017722255897264129,
+            "mod": [],
+            "admin": [
+                969192890205110313
+            ]
+        },
+        "978366483518349393": {
+            "owner": 849030176112640000,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "921388436177453067": {
+            "owner": 921385031262433280,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "893727172617977896": {
+            "owner": 464109113023135764,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "956411875480989706": {
+            "owner": 798417474416672768,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "971064666639986738": {
+            "owner": 728139123780747324,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "941333589612724284": {
+            "owner": 908723197862621218,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "973061696279175198": {
+            "owner": 908723197862621218,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "877837063532191775": {
+            "owner": 904262503712841748,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "877276106745593926": {
+            "owner": 904262503712841748,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "1000642727635071066": {
+            "owner": 971351289306947594,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "981440310771089438": {
+            "owner": 983960113427673179,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "979426151548211210": {
+            "owner": 905396101274828821,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "936934046863339560": {
+            "owner": 985097344880082964,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "938809221988888628": {
+            "owner": 699615688452603905,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "981868828713713734": {
+            "owner": 971617059383431199,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "1005689915243237467": {
+            "owner": 1000056160457588868,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "986120188669874227": {
+            "owner": 979967089542569994,
+            "Punishment": 1,
+            "whitelist": [
+                969192890205110313,
+                980052857493553202,
+                1006762674157277294,
+                1010726881173188750,
+                974984890959425566
+            ],
+            "log_channel": 1018361711276851271,
+            "mod": [],
+            "admin": [
+                969192890205110313
+            ]
+        },
+        "1013090317349695648": {
+            "owner": 975012142640169020,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "1017850445395415090": {
+            "owner": 869182544942354493,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "1019529073153822769": {
+            "owner": 985097344880082964,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        },
+        "1005519692854739045": {
+            "owner": 984761658075402260,
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": 1011960266466017300,
+            "mod": [],
+            "admin": []
+        },
+        "753422063141781554": {
+            "owner": " ",
+            "Punishment": "1",
+            "whitelist": [],
+            "log_channel": "",
+            "mod": [],
+            "admin": []
+        }
+    }
+}

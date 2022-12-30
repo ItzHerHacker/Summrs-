@@ -1,0 +1,1 @@
+9999999999{"name": "pygit2", "version": "1.10.0", "summary": "Python bindings for libgit2.", "platform": null, "requires_dist": ["cached-property ; python_version < \"3.8\"", "cffi (>=1.9.1)"], "requires_python": ">=3.7", "files": [], "_cache_version": "1.0.0"}

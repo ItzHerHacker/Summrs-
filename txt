@@ -1,0 +1,36 @@
+@bot.command()
+async def mod(ctx: commands.Context, user: discord.User = None, *, reason="No Reason Provided"):
+  if user is None:
+    ctx.command.reset_cooldown(ctx)
+    return await ctx.send(
+                "Invalid Usage! Please enter a user to kick.\nCorrect Usage: `>kick @user [reason]`"
+            )
+    
+  else:  
+      view = Mod()
+      emergency_embed = discord.Embed(title="<:mod:1009092593461760120>**Advance Mod**<:mod:1009092593461760120>", color=Color.green(), description=f"{emoji}**User**    :   {user.mention}\n{emoji}**Crime**    :   {reason}\n{emoji}**Time**    :   <t:{(int(datetime.datetime.now().timestamp()))}:f>\n{emoji}**Moderator**    :   {ctx.author.mention}\n{emoji}**Joined at**    :   {discord.utils.format_dt(user.joined_at)}\n{emoji}**DO YOU WANT TO MODERATE {user.mention}**").set_thumbnail(url=user.display_avatar.url)
+      msg = await ctx.send(embed=emergency_embed ,view=view)
+    # Wait for the View to stop listening for input...
+      await view.wait()
+      if view.value == 0 :
+        await msg.edit("Timed Out")
+      elif view.value == 1 :
+        emergency = discord.Embed(title="<:mod:1009092593461760120>**Sucessfully Banned** <:mod:1009092593461760120>", color=Color.green(), description=f"{emoji}**User**    :   {user}\n{emoji}**Crime**    :   {reason}\n{emoji}**Time**    :   <t:{(int(datetime.datetime.now().timestamp()))}:f>\n{emoji}**Moderator**    :   {ctx.author.mention}\n{emoji}**Joined at**    :   {discord.utils.format_dt(user.joined_at)}").set_thumbnail(url=user.display_avatar.url)
+        await ctx.guild.ban(user, reason=reason)
+        await msg.edit(embed=emergency,view=None)
+      elif view.value == 2 :
+        emergency = discord.Embed(title="<:mod:1009092593461760120>**Sucessfully Kicked** <:mod:1009092593461760120>", color=Color.green(), description=f"{emoji}**User**    :   {user}\n{emoji}**Crime**    :   {reason}\n{emoji}**Time**    :   <t:{(int(datetime.datetime.now().timestamp()))}:f>\n{emoji}**Moderator**    :   {ctx.author.mention}\n{emoji}**Joined at**    :   {discord.utils.format_dt(user.joined_at)}").set_thumbnail(url=user.display_avatar.url)
+        await ctx.guild.kick(user, reason=reason)
+        await msg.edit(embed=emergency,view=None)  
+      elif view.value == 3 :
+        emergency = discord.Embed(title="<:mod:1009092593461760120>**Sucessfully Muted** <:mod:1009092593461760120>", color=Color.green(), description=f"{emoji}**User**    :   {user}\n{emoji}**Crime**    :   {reason}\n{emoji}**Time**    :   <t:{(int(datetime.datetime.now().timestamp()))}:f>\n{emoji}**Moderator**    :   {ctx.author.mention}\n{emoji}**Joined at**    :   {discord.utils.format_dt(user.joined_at)}").set_thumbnail(url=user.display_avatar.url)
+        await msg.edit(embed=emergency,view=None)  
+      elif view.value == 4 :
+        emergency = discord.Embed(title="<:mod:1009092593461760120>**Sucessfully Unmuted** <:mod:1009092593461760120>", color=Color.green(), description=f"{emoji}**User**    :   {user}\n{emoji}**Crime**    :   {reason}\n{emoji}**Time**    :   <t:{(int(datetime.datetime.now().timestamp()))}:f>\n{emoji}**Moderator**    :   {ctx.author.mention}\n{emoji}**Joined at**    :   {discord.utils.format_dt(user.joined_at)}").set_thumbnail(url=user.display_avatar.url)
+        await msg.edit(embed=emergency,view=None)  
+      elif view.value == 5 :
+        emergency = discord.Embed(title="<:mod:1009092593461760120>**Sucessfully Unbanned** <:mod:1009092593461760120>", color=Color.green(), description=f"{emoji}**User**    :   {user}\n{emoji}**Crime**    :   {reason}\n{emoji}**Time**    :   <t:{(int(datetime.datetime.now().timestamp()))}:f>\n{emoji}**Moderator**    :   {ctx.author.mention}\n{emoji}**Joined at**    :   {discord.utils.format_dt(user.joined_at)}").set_thumbnail(url=user.display_avatar.url)
+        await ctx.guild.unban(user, reason=reason)
+        await msg.edit(embed=emergency,view=None)  
+      else:
+        await ctx.send("Canceled")
