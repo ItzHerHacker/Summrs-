@@ -7,4 +7,3 @@ Leaked By Hacker
 
 
 
-# maybe after new year i will upload the code
